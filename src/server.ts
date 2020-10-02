@@ -7,7 +7,7 @@ import { Application } from 'express';
 export class SetupServer extends Server {
   private port: number;
 
-  constructor(port: number = 3000) {
+  constructor(port: 3000) {
     super();
 
     this.port = port;
